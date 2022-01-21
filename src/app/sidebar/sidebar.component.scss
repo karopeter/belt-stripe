@@ -1,0 +1,54 @@
+ul {
+  margin: 8rem auto;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  background-color: #F8F9FA;
+  width: 15%;
+  height: 100%;
+  list-style: none;
+  position: fixed;
+  margin-bottom: 10rem;
+  overflow: auto;
+}
+
+.sidenav {
+  margin-top: 3rem;
+}
+
+li a.active {
+  background: #FFFFFF;
+  padding: 16px 24px;
+  position: absolute;
+  display: flex;
+  color: #000;
+}
+li a:hover:not(.active){
+  background-color:#212529;
+  color: #fff;
+}
+
+.tag {
+  font-size: 2rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+}
+
+.logo,
+.change {
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration: none;
+  margin-bottom: 10rem;
+}
+
+.logo {
+  color: #000;
+}
+
+.change {
+  color: #C61C18;
+}
+
