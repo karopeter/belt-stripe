@@ -101,16 +101,6 @@
      display: flex;
    }
 
-   &__lineOption {
-      margin-left: 10px;
-      margin-right: 5px;
-      font-size: 13px;
-      font-weight: 400;
-      margin-top: 2rem;
-      margin-left: 5rem;
-      text-decoration: none;
-   }
-
    &__button {
      padding: 7px 13px;
      position: static;
@@ -120,6 +110,12 @@
      background: #212529;
      box-sizing: border-box;
      border-radius: 4px;
+     margin-left: 10px;
+      margin-right: 5px;
+      font-size: 13px;
+      font-weight: 400;
+      margin-top: 2rem;
+      margin-left: 5rem;
      border: 1px solid #212529;
    }
  }

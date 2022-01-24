@@ -1,0 +1,64 @@
+<nav class="sidebar">
+  <app-sidebar></app-sidebar>
+</nav>
+<main class="bundle">
+  <div class="basket__option">
+    <img src="/assets/images/blue.png" alt="vector images" class="vector"/>
+    <p class="line__sdk">Eddie Kone Academy - BJJ</p>
+    <div class="circle">
+      <strong class="text">+</strong>
+    </div>
+  </div>
+  <div class="instructor">
+    <a routerLink="/instructor-data" class="instructor__polyeans">Instructors</a>
+    <div class="instructor__search">
+      <input type="text" class="instructor__searchInput"/>
+      <img src="/assets/images/search.svg" alt="icon" class="instructor__searchIcon"/>
+    </div>
+    <div class="student__enrollBasket">
+     <button type="button" class="instructor__button" data-bs-toggle="modal" data-bs-target="#exampleModal">Enroll Instructors</button>
+    </div>
+    <table class="table table-bordered tales__story">
+      <thead>
+        <tr>
+          <th scope="col">S/N</th>
+          <th scope="col">Name</th>
+          <th scope="col">Status</th>
+          <th scope="col">Rank</th>
+          <th scope="col">Date Enrolled</th>
+          <th scope="col">Classes Assigned</th>
+          <th scope="col">Sessions Completed</th>
+          <th scope="col">Students Trained</th>
+          <th scope="col">Last Class</th>
+          <th scope="col">Next Class</th>
+        </tr>
+      </thead>
+     </table>
+     <div>
+      <img src="/assets/images/warning.png" alt="" class="images" />
+      <p class="central">There are no instructors onboarded yet</p>
+     </div>
+  </div>
+</main>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <app-enroll></app-enroll>
+        <div class="row g-3 clap__control">
+          <div class="col-md-6">
+            <button type="button" class="btn-1">Enroll</button>
+          </div>
+          <div class="col-md-6">
+           <button type="button" class="btn-2">Cancel</button>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

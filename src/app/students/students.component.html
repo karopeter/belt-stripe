@@ -16,9 +16,7 @@
        <img src="/assets/images/search.svg" alt="icon" class="student__searchIcon"/>
      </div>
      <div class="student__enrollBasket">
-      <a routerLink="/enroll" class="student__lineOption">
-       <button type="button" class="student__button">Enroll Students</button>
-      </a>
+      <button type="button" class="student__button" data-bs-toggle="modal" data-bs-target="#exampleModal">Enroll Students</button>
      </div>
      <table class="table table-bordered tales__story">
       <thead>
@@ -43,3 +41,16 @@
   </div>
 </main>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <app-academy></app-academy>
+      </div>
+    </div>
+  </div>
+</div>

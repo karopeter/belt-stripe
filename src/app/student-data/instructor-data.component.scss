@@ -11,6 +11,7 @@
   position: absolute;
 }
 
+
 .basket__option {
   background-color: #F8F9FA;
   display: flex;
@@ -55,7 +56,8 @@
   margin-left: 1.2rem;
 }
 
-.student {
+
+.instructor {
   background: #F8F9FA;
   display: flex;
   position: relative;
@@ -76,7 +78,6 @@
     text-decoration: none;
   }
 
-  
   &__search {
     display: flex;
     flex-direction: row;
@@ -87,7 +88,7 @@
     width: 639px;
     height: 38px;
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-left: 10rem;
     border: 1px solid #CED4DA;
     border-radius: 4px;
   }
@@ -109,36 +110,10 @@
 
   &__searchIcon {
     position: absolute;
-    left: 68%;
+    left: 78%;
     background: #656565;
     margin-top: 2rem;
   }
-
-  &__enrollBasket {
-     display: flex;
-   }
-
-   &__lineOption {
-      margin-left: 10px;
-      margin-right: 5px;
-      font-size: 13px;
-      font-weight: 400;
-      margin-top: 2rem;
-      margin-left: 5rem;
-      text-decoration: none;
-   }
-
-   &__button {
-     padding: 7px 13px;
-     position: static;
-     width: 209px;
-     height: 38px;
-     color: #fff;
-     background: #212529;
-     box-sizing: border-box;
-     border-radius: 4px;
-     border: 1px solid #212529;
-   }
 }
 
 .tales__story {
@@ -162,6 +137,34 @@
   box-shadow: inset 1px 0px 0px rgba(33, 37, 41, 0.125);
   border-radius: 0px;
 }
+
+.red__belt,
+.black__belt,
+.coral__belt,
+.brown__belt {
+  position: relative;
+  height: 48px;
+  top: calc(50% - 48px/2);
+  color: #FFFFFF;
+  border-radius: 0px;
+}
+
+.red__belt {
+  background: #EC0909;
+}
+
+.black__belt {
+  background: #000000;
+}
+
+.coral__belt {
+  background: #C71611;
+}
+
+.brown__belt {
+  background: #8C462D;
+}
+
 
 .btn__ghost {
   display: flex;
@@ -187,38 +190,6 @@
   color: #212529;
 }
 
-
-.blue__belt,
-.purple__belt,
-.white__belt,
-.brown__belt {
-  position: relative;
-  height: 48px;
-  left: 0%;
-  right: 0%;
-  top: calc(50% - 48px/2);
-  color: #FFFFFF;
-  border-radius: 0px;
-}
-
-.blue__belt {
-  background: #2727C9;
-}
-
-
-.purple__belt {
-  background: #621083;
-}
-
-.white__belt {
-  background: #F8F9FA;
-  color: #212529;
-}
-
-.brown__belt {
-  background: #8C462D;
-}
-
 .btn__pending {
   display: flex;
   flex-direction: row;
@@ -234,10 +205,6 @@
   top: 5px;
   background: #FFC107;
   border-radius: 4px;
-}
-
-span {
-  color: #C61C18;
 }
 
 .btn__inactive {
@@ -256,27 +223,3 @@ span {
   background: #DC3545;
   border-radius: 4px;
 }
-
-
-.opponent {
-  position: relative;
-  height: 48px;
-  left: 0%;
-  right: 0%;
-  top: calc(50% - 48px/2);
-  background: #E9ECEF;
-  border-radius: 0px;
-}
-
-.navigation {
-  position: relative;
-  width: 1072px;
-  height: 52px;
-  left: 0px;
-  top:  0p;
-  bottom: 0px;
-  background: #F8F9FA;
-  border: 1px solid #DEE2E6;
-  box-sizing: border-box;
-}
-

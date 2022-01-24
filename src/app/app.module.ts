@@ -7,6 +7,10 @@ import { StudentsComponent } from './students/students.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { AcademyComponent } from './academy/academy.component';
 import { StudentDataComponent } from './student-data/student-data.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { InstructorsComponent } from './instructors/instructors.component';
+import { EnrollComponent } from './academy/enroll.component';
+import { InstructorDataComponent } from './student-data/instructor-data.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +18,15 @@ import { StudentDataComponent } from './student-data/student-data.component';
     StudentsComponent,
     SidebarComponent,
     AcademyComponent,
-    StudentDataComponent
+    StudentDataComponent,
+    InstructorsComponent,
+    EnrollComponent,
+    InstructorDataComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
